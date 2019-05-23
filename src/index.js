@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import { AppContainer } from 'react-hot-loader';
-import RouteConfig from './router'
+import {Provider} from 'react-redux';
+import store from './store/store';
+import RouteConfig from './router';
 
 
 const render = Component => {
     ReactDOM.render(
-        <AppContainer>
-            <Component />
-        </AppContainer>,
+        <Provider store={store}>
+            <AppContainer>
+                <Component />
+            </AppContainer>
+        </Provider>,
         document.getElementById('root'),
     )
 }
