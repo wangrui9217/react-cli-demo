@@ -15,7 +15,6 @@ class HomeIndex extends Component{
     }
 
     componentWillMount () {
-        const {formData, saveFormData} = this.props
         console.log(this.props)
     }
 
