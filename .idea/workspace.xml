@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb459c11-9d2d-4953-9f37-90707744e7eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +28,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="6" />
+          <entry key="js" value="7" />
           <entry key="json" value="1" />
           <entry key="jsx" value="3" />
           <entry key="less" value="1" />
@@ -37,7 +40,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JSX Harmony" value="3" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="7" />
           <entry key="Less" value="1" />
         </counts>
       </usages-collector>
@@ -49,7 +52,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
-          <entry key="js" value="186" />
+          <entry key="js" value="188" />
           <entry key="jsx" value="349" />
           <entry key="less" value="8" />
           <entry key="txt" value="4" />
@@ -59,7 +62,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSX Harmony" value="349" />
-          <entry key="JavaScript" value="186" />
+          <entry key="JavaScript" value="188" />
           <entry key="Less" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -126,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/HomeIndex.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -134,6 +137,15 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="350" column="16" selection-start-line="350" selection-start-column="16" selection-end-line="350" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -183,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/pages/login/LoginIndex.jsx" />
         <option value="$PROJECT_DIR$/src/style/HomeIndex.less" />
         <option value="$PROJECT_DIR$/src/pages/home/HomeIndex.jsx" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -220,6 +233,11 @@
             <path>
               <item name="react-cli-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-cli-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-cli-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-cli-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-cli-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +297,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558590608376</updated>
-      <workItem from="1558590609974" duration="7111000" />
+      <workItem from="1558590609974" duration="8152000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1558597499105</created>
@@ -288,14 +306,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558597499105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1558598199651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558598199651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7111000" />
+    <option name="totallyTimeSpent" value="8152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -423,6 +449,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="350" column="16" selection-start-line="350" selection-start-column="16" selection-end-line="350" selection-end-column="16" />
         </state>
       </provider>
     </entry>
