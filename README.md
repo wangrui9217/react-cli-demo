@@ -35,15 +35,6 @@
 >  另外一个 vue2 + vuex 的简单项目，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri)
 
 
-## 演示
-
-[查看演示效果](https://cangdu.org/pxq/)（请用chrome的手机模式预览）
-
-### 移动端扫描下方二维码
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/demo.png)
-
-
-
 
 # 个人感悟
 
