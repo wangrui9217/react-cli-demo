@@ -5,10 +5,16 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import {saveFormData} from './../../store/home/action'
+import {Login} from './../../api/home'
 
 import './../../style/HomeIndex.less'
 
 class HomeIndex extends Component{
+
+    constructor() {
+        super()
+        this.login = this.login.bind(this)
+    }
 
     static propTypes = {
         formData: PropTypes.object.isRequired,
@@ -16,6 +22,18 @@ class HomeIndex extends Component{
 
     componentWillMount () {
         console.log(this.props)
+    }
+
+    componentDidMount () {}
+
+    login () {
+        const data = {
+            password: '111111',
+            userPhone: '15262753656'
+        }
+        Login(data).then(res => {
+            console.log(res)
+        })
     }
 
 
@@ -29,6 +47,7 @@ class HomeIndex extends Component{
                 <p onClick={() => this.routerPush()}>跳转</p>
                 <p>{this.props.formData.imgpath}</p>
                 <button onClick={() => this.changeState()}>click</button>
+                <button onClick={this.login}>login</button>
             </div>
         )
     }
